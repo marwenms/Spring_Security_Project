@@ -35,6 +35,7 @@ public class UserController {
 	public List<UserManager> findALL()
 	{
 		System.out.println("hello");
+		System.out.println("margot");
 		return UserService.findALL();
 	}
 
