@@ -21,7 +21,7 @@ import com.service.UserService;
 
 public class UserController {
 
-	@Autowired
+	@Autowired  
 	UserService UserService;
 	/*
 	@RequestMapping(value="/findByLogin",method=RequestMethod.GET)
