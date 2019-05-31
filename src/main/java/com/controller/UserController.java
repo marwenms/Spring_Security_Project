@@ -34,6 +34,7 @@ public class UserController {
 	@RequestMapping(value="/users",method=RequestMethod.GET)
 	public List<UserManager> findALL()
 	{
+		System.out.println("hello");
 		return UserService.findALL();
 	}
 
